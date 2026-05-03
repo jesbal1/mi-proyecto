@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicias Frutales</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <img src="img 4.jpeg" alt="Lisas Frutales" class="logo">
+    <h1>Delicias Frutales</h1>
+    <p class="subtitle">"postres de fruta natural"</p>
+  </header>
+
+  <div class="hero">
+    <h2>Deliciosos y frescos</h2>
+    <p class="hero-phrase">Explosión de sabores en cada bocado</p>
+  </div>
+
+  <div class="products">
+    <h2 class="section-title">Nuestros Sabores</h2>
+    
+      <div class="card">
+        <img src="img 3.jpeg" alt="Postre de Limón">
+        <div class="card-content">
+          <h3>Postres de Limón</h3>
+          <p>Fresco y delicioso</p>
+          <p class="price">$6.000</p>
+
+          <div class="ingredients">
+            <h4>Ingredientes:</h4>
+            <ul>
+              <li>Limón natural</li>
+              <li>Leche condensada</li>
+              <li>Crema de leche</li>
+              <li>Galletas</li>
+              <li>Mantequilla</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img 2.jpeg" alt="Postre de Mora">
+        <div class="card-content">
+          <h3>Postres de Mora</h3>
+          <p>Dulce y lleno de sabor</p>
+          <p class="price">$6.000</p>
+
+          <div class="ingredients">
+            <h4>Ingredientes:</h4>
+            <ul>
+              <li>Moras frescas</li>
+              <li>Azúcar</li>
+              <li>Crema de leche</li>
+              <li>Base de galleta</li>
+              <li>Gelatina natural</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img 1.jpeg" alt="Postre de Maracuyá">
+        <div class="card-content">
+          <h3>Postres de Maracuyá</h3>
+          <p>Tropical y vibrante</p>
+          <p class="price">$6.000</p>
+
+          <div class="ingredients">
+            <h4>Ingredientes:</h4>
+            <ul>
+              <li>Maracuyá fresco</li>
+              <li>Leche condensada</li>
+              <li>Crema</li>
+              <li>Galletas</li>
+              <li>Mantequilla</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img5.jpeg" alt="Postre de Fresa">
+        <div class="card-content">
+          <h3>Postres de Fresa</h3>
+          <p>Suave y cremoso con fresas naturales</p>
+          <p class="price">$6.000</p>
+
+          <div class="ingredients">
+            <h4>Ingredientes:</h4>
+            <ul>
+              <li>Fresas frescas</li>
+              <li>Crema de queso</li>
+              <li>Leche condensada</li>
+              <li>Base de galleta</li>
+              <li>Gelatina natural</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h2>Contáctanos</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <input type="tel" placeholder="Tu teléfono">
+      <textarea rows="4" placeholder="Tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <a href="https://wa.me/573138444641?text=Hola%20Delicias%20Frutales%2C%20quiero%20información%20sobre%20los%20Postres" 
+     class="whatsapp-btn" target="_blank" title="WhatsApp">💬</a>
+
+  <footer>
+    <p>&copy; 2026 Delicias Frutales - Bogotá</p>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('¡Gracias! Tu mensaje ha sido enviado. Te responderemos pronto ');
+    });
+  </script>
+</body>
+</html>
